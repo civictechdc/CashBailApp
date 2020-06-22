@@ -44,7 +44,7 @@ public class HomeController {
 	public String donate(Principal principal, Model model){
 		String username = principal.getName();
 		model.addAttribute("user", userRepository.findByUsername(username));
-		//model.addAttribute("email", userRepository.findByEmail(email));
+		model.addAttribute("email", userRepository.findAll());
 
 		return "donate";}
 
@@ -52,6 +52,7 @@ public class HomeController {
 	public String donateConfirm(Principal principal, Model model){
 		String username = principal.getName();
 		model.addAttribute("user", userRepository.findByUsername(username));
+
 
 		return "donateConfirm";
 	}

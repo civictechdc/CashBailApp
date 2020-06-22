@@ -14,10 +14,10 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @EnableGlobalMethodSecurity(prePostEnabled = true) 
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-	@Override
+	/*@Override
 	public void configure(WebSecurity web) throws Exception {
 		web.ignoring().antMatchers("/", "/register");
-	}
+	}*/
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
