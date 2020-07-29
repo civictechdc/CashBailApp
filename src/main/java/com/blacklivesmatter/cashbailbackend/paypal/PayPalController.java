@@ -1,4 +1,4 @@
-package com.blacklivesmatter.cashbailbackend.controller;
+package com.blacklivesmatter.cashbailbackend.paypal;
 
 import com.blacklivesmatter.cashbailbackend.paypal.PayPalService;
 import org.springframework.beans.factory.annotation.Autowired;
