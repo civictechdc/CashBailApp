@@ -33,7 +33,7 @@ build/
 .bash_profile/r
 .bash_profile.swp
 .bash_profile\r
-.bash_profile\r
+
 
 /application.properties
 .DS_Store
